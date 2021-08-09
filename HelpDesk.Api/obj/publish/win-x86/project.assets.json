@@ -8089,27 +8089,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ignacio.mariscal\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\c.rcagut\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ignacio.mariscal\\Documents\\Personal\\KIKIN\\HD\\HelpDeskApi\\HelpDesk.Api\\HelpDesk.Api\\HelpDesk.Api.csproj",
+      "projectUniqueName": "C:\\Users\\c.rcagut\\Documents\\HelpDeskApi\\HelpDesk.Api\\HelpDesk.Api\\HelpDesk.Api.csproj",
       "projectName": "HelpDesk.Api",
-      "projectPath": "C:\\Users\\ignacio.mariscal\\Documents\\Personal\\KIKIN\\HD\\HelpDeskApi\\HelpDesk.Api\\HelpDesk.Api\\HelpDesk.Api.csproj",
-      "packagesPath": "C:\\Users\\ignacio.mariscal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ignacio.mariscal\\Documents\\Personal\\KIKIN\\HD\\HelpDeskApi\\HelpDesk.Api\\HelpDesk.Api\\obj\\publish\\win-x86\\",
+      "projectPath": "C:\\Users\\c.rcagut\\Documents\\HelpDeskApi\\HelpDesk.Api\\HelpDesk.Api\\HelpDesk.Api.csproj",
+      "packagesPath": "C:\\Users\\c.rcagut\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\c.rcagut\\Documents\\HelpDeskApi\\HelpDesk.Api\\HelpDesk.Api\\obj\\publish\\win-x86\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ignacio.mariscal\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\c.rcagut\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -8120,6 +8113,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -8131,6 +8125,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "AutoMapper": {
             "target": "Package",
@@ -8169,20 +8164,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
-            "version": "[3.1.3, 3.1.3]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Runtime.win-x86",
-            "version": "[3.1.3, 3.1.3]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
-            "version": "[3.1.3, 3.1.3]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -8191,7 +8172,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

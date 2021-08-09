@@ -75,9 +75,9 @@ namespace HelpDesk.Api.Controllers
                         }
                     }
 
-                    await emailSender
+                    /*await emailSender
                     .SendEmailAsync($"Nuevo Ticket Creado #{ticket.TicketId}", await obtenerHtmlTicket(ticket), fullPath)
-                    .ConfigureAwait(false);
+                    .ConfigureAwait(false);*/
                     ticketDto.TicketId = ticket.TicketId;
                     return Ok(ticketDto);
                 }
